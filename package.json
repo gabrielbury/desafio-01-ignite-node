@@ -1,0 +1,17 @@
+{
+  "name": "desafio-fundamentos-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "dev:bulk": "node src/streams/bulkTasks.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.4.0"
+  }
+}
